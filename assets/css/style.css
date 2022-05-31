@@ -393,6 +393,7 @@ p {
 --------------------------------------------------------------*/
 #hero {
   background: url("../img/") repeat scroll center center/cover;
+  background-color: #292929;
   height: 100vh;
   width: 100%;
 }
