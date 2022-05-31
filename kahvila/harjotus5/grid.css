@@ -1,0 +1,90 @@
+
+
+.item1 {
+  grid-area: header;
+  text-align: center;
+}
+
+.item2 {
+  grid-area: side;
+}
+
+.item3 {
+  grid-area: article;
+  text-align: center;
+}
+.item4 {
+  grid-area: footer;
+  text-align: center;
+}
+
+body {
+  background-image: url("images/374030.jpg");
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+    "header header header header header"
+    "side article article article article"
+    ". article article article article"
+    "footer footer footer footer footer";
+  grid-gap: 10px;
+  background-color: #4a2c2a;
+  padding: 10px ;
+}
+
+.container > div {
+  background-color: rgb(196, 164, 132);
+  padding: 5px ;
+  font-size: 23px;
+  border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.button {
+  text-align: center;
+}
+
+.titteli {
+  text-align: center;
+}
+
+@media screen and (max-width: 960px){
+  .container > div {
+    background-color: lightblue;
+    padding: 5px ;
+    font-size: 23px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: 
+      ". header header header ."
+      "article article article article article"
+      "side side . . ."
+      "side side . footer footer";
+    grid-gap: 10px;
+    padding: 10px;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .container > div {
+    background-color: pink;
+    padding: 5px ;
+    font-size: 23px;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  .container > div {
+    background-color: white;
+    padding: 5px ;
+    font-size: 23px;
+  }

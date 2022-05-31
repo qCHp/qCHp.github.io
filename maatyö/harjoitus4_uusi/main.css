@@ -1,0 +1,113 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 20);
+    font-family: Arial;
+    padding: 2px;
+    outline: cyan;
+    outline-style: solid;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: darkmagenta;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("img/Shadow_Isles.jpg");
+}
+
+p {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+th {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#costumes {
+    margin: 0 auto;
+    width: 26.3%;
+    flex-direction: column;
+    width: 26.3%;
+    display: flex;
+    background-color: black;
+    font-size: 20px;
+    outline: cyan;
+    outline-style: solid;
+}
+
+#evil-doer {
+    background-color: red;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#tyhja1 {
+    width: 30%;
+}
+
+#tyhja2 {
+    width 30%;
+}
+
+
+#all, #info, #info_table, #all_stuff, #info_vex, #stats, #text {
+    display: flex;
+    background-color: black;
+    outline: cyan;
+    outline-style: solid;
+}
+
+#all {
+    margin: 0 auto;
+}
+
+#info {
+    flex-direction: column;
+    width: 24%;
+
+}
+
+#info_table {
+    width: 16%;
+    
+}
+
+
+#all_stuff {
+    margin: 0 auto;
+    width: 32.5%;
+}
+
+#stats {
+    flex-direction: column;
+    width: 60%;
+}
+
+#info_vex {
+    width: 40%;
+}
+
+#text {
+    margin: 0 auto;
+    width: 50%;
+    flex-direction: column;
+    width: 50%;
+
+}    
