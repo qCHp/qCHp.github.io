@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fanshop/static/css/main.f19ac0bd.css",
+    "main.js": "/fanshop/static/js/main.f3cf080f.js",
+    "static/js/787.deeb6c74.chunk.js": "/fanshop/static/js/787.deeb6c74.chunk.js",
+    "static/media/Kraken_Slayer.jpg": "/fanshop/static/media/Kraken_Slayer.70ac23e65e0d8edba4ce.jpg",
+    "static/media/Galeforce.jpg": "/fanshop/static/media/Galeforce.1eae11d60883ab3bb01c.jpg",
+    "static/media/Guinsoos_Rageblade.jpg": "/fanshop/static/media/Guinsoos_Rageblade.50f0e3d0d089ef52c87a.jpg",
+    "static/media/Mortal_Reminder.jpg": "/fanshop/static/media/Mortal_Reminder.3b686b34fc2fe37d52e6.jpg",
+    "static/media/Navori_Quickblades.jpg": "/fanshop/static/media/Navori_Quickblades.9393d82c58856cab24ee.jpg",
+    "static/media/Blood_Thirster.jpg": "/fanshop/static/media/Blood_Thirster.815276b4814c3b41c9a6.jpg",
+    "static/media/shop-logo.png": "/fanshop/static/media/shop-logo.27f7e8422f0571a5fbcc.png",
+    "index.html": "/fanshop/index.html",
+    "main.f19ac0bd.css.map": "/fanshop/static/css/main.f19ac0bd.css.map",
+    "main.f3cf080f.js.map": "/fanshop/static/js/main.f3cf080f.js.map",
+    "787.deeb6c74.chunk.js.map": "/fanshop/static/js/787.deeb6c74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f19ac0bd.css",
+    "static/js/main.f3cf080f.js"
+  ]
+}
