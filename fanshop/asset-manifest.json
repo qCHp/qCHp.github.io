@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fanshop/static/css/main.f19ac0bd.css",
+    "main.css": "/fanshop/static/css/main.7457c160.css",
     "main.js": "/fanshop/static/js/main.f3cf080f.js",
     "static/js/787.deeb6c74.chunk.js": "/fanshop/static/js/787.deeb6c74.chunk.js",
     "static/media/Kraken_Slayer.jpg": "/fanshop/static/media/Kraken_Slayer.70ac23e65e0d8edba4ce.jpg",
@@ -11,12 +11,12 @@
     "static/media/Blood_Thirster.jpg": "/fanshop/static/media/Blood_Thirster.815276b4814c3b41c9a6.jpg",
     "static/media/shop-logo.png": "/fanshop/static/media/shop-logo.27f7e8422f0571a5fbcc.png",
     "index.html": "/fanshop/index.html",
-    "main.f19ac0bd.css.map": "/fanshop/static/css/main.f19ac0bd.css.map",
+    "main.7457c160.css.map": "/fanshop/static/css/main.7457c160.css.map",
     "main.f3cf080f.js.map": "/fanshop/static/js/main.f3cf080f.js.map",
     "787.deeb6c74.chunk.js.map": "/fanshop/static/js/787.deeb6c74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f19ac0bd.css",
+    "static/css/main.7457c160.css",
     "static/js/main.f3cf080f.js"
   ]
 }
