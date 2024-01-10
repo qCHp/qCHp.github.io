@@ -58,16 +58,7 @@ th {
     margin-right: 20px;
 }
 
-#tyhja1 {
-    width: 30%;
-}
-
-#tyhja2 {
-    width 30%;
-}
-
-
-#all, #info, #info_table, #all_stuff, #info_vex, #stats, #text {
+#info, #info_table, #all_stuff, #info_vex, #stats, #text {
     display: flex;
     background-color: black;
     outline: cyan;
@@ -75,8 +66,11 @@ th {
 }
 
 #all {
-    margin: 0 auto;
-}
+    margin: 0%;
+    justify-content: center;
+    background: transparent;
+    display: flex;  
+} 
 
 #info {
     flex-direction: column;
@@ -109,5 +103,4 @@ th {
     width: 50%;
     flex-direction: column;
     width: 50%;
-
-}    
+}
