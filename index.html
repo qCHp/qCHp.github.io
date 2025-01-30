@@ -39,7 +39,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top header-scrolled">
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
@@ -48,30 +48,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="" href="">Home</a></li>
-          <li><a class="nav-link scrollto active" href="files/Perakivi-CV.pdf">CV</a></li>
-          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="home">
-
-    <div class="container">
-      <div class="hero-content">
-        <h1>I'm <span class="typed" data-typed-items="Christian peräkivi, Developer"></span></h1>
-        <p>Developer</p>
-
-        <ul class="list-unstyled list-social">
-          <li><a href="https://www.linkedin.com/in/christian-perakivi-aaa726221/"><i class="bi bi-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div><!-- End Hero -->
 
   <main id="main">
     <!-- ======= Services Section ======= -->
@@ -94,7 +76,7 @@
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>My Portfolio</h2>
+          <h2>Joonas Christian Peräkivi Portfolio</h2>
         </div>
       </div>
 
@@ -112,6 +94,11 @@
                 <li data-filter=".filter-Csharp">Unity,C#</li>
                 <li data-filter=".filter-Lua">Roblox Studio,Lua</li>
             </ul>
+            <ul id="portfolio-flters">
+                <li data-filter=".filter-1">Year 1</li>
+                <li data-filter=".filter-2">Year 2</li>
+                <li data-filter=".filter-3">Year 3</li>
+            </ul>
           </div>
         </div>
         <div class="row portfolio-container">
@@ -127,7 +114,8 @@
             </div>
           </div>-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-Csharp">
+          <!-- uncomment when new sit done
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Csharp filter-3">
             <img src="assets/img/portfolio/portfolio11.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Grey Goose</h4>
@@ -137,9 +125,9 @@
               <a href="assets/img/portfolio/portfolio11.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 4"><i class="bx bx-plus"></i></a>
               <a href="https://greylandgames.com/game/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-Lua">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Lua filter-3">
             <img src="assets/img/portfolio/portfolio10.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Blazers:TD</h4>
@@ -151,7 +139,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-Csharp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Csharp filter-3">
             <img src="assets/img/portfolio/portfolio9.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Blazers</h4>
@@ -163,7 +151,8 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-React">
+          <!-- uncommment if working
+          <div class="col-lg-4 col-md-6 portfolio-item filter-React filter-3">
             <img src="assets/img/portfolio/portfolio7.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Baolandia (made in finnish)</h4>
@@ -173,9 +162,9 @@
               <a href="assets/img/portfolio/portfolio7.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 4"><i class="bx bx-plus"></i></a>
               <a href="https://eridah21baogameapp.node.treok.io/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div> -->
           
-          <div class="col-lg-4 col-md-6 portfolio-item filter-Csharp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Csharp filter-3">
             <img src="assets/img/portfolio/portfolio8.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Space baalers unity game practice</h4>
@@ -187,7 +176,7 @@
             </div>
           </div>  
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-React">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-React filter-2">
             <img src="assets/img/portfolio/portfolio5.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Webstore practice (only works in chrome)</h4>
@@ -199,7 +188,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-PHP">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-PHP filter-2">
             <img src="assets/img/portfolio/portfolio6.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Sports diary project (made in finnish)</h4>
@@ -211,7 +200,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-PHP">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-PHP filter-2">
             <img src="assets/img/portfolio/portfolio4.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Game review practice</h4>
@@ -222,7 +211,7 @@
               <a href="http://gamereview.chrper21.treok.io/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-PHP">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-PHP filter-2">
             <img src="assets/img/portfolio/portfolio3.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Character and info creator (made in finglish)</h4>
@@ -234,7 +223,7 @@
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-6 portfolio-item filter-HTML">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-HTML filter-1">
             <img src="assets/img/portfolio/portfolio2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Café html grid practice (made in finnish)</h4>
@@ -246,7 +235,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-HTML">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-HTML filter-1">
             <img src="assets/img/portfolio/portfolio1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Character info page</h4>
